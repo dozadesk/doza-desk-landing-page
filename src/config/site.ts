@@ -211,7 +211,7 @@ export const projects: Project[] = [
     title: "Hufi Files",
     genre: "Cybersecurity Thriller",
     deliverable: "Short-film Screenplay",
-    image: "/images/portfolio-hufi.jpg",
+    image: `./images/portfolio-hufi.jpg`,
     synopsis:
       "একজন তরুণ এথিক্যাল হ্যাকার হঠাৎ আবিষ্কার করে—তার নিজের শহরের একটি ব্যাংক জালিয়াতির পেছনে আছে তারই পরিচিত কেউ। সত্য বের করতে গিয়ে সে ঢুকে পড়ে এক ডিজিটাল ফাঁদে।",
     excerptTitle: "Hufi Files — দৃশ্য ৩ (নমুনা অংশ)",
@@ -232,7 +232,7 @@ export const projects: Project[] = [
     title: "গ্রামের প্রেম",
     genre: "Emotional Short Film",
     deliverable: "Short-film Script + Dialogue",
-    image: "/images/portfolio-gramer-prem.jpg",
+    image: `./images/portfolio-gramer-prem.jpg`,
     synopsis:
       "শহরে চাকরি পাওয়া রাকিব ফিরে আসে গ্রামে—শুধু ছুটিতে নয়, ফেলে আসা এক প্রতিশ্রুতি রাখতে। পুরনো বটগাছের নিচে অপেক্ষা করছে এমন এক সত্য, যা বদলে দেবে দুটি জীবন।",
     excerptTitle: "গ্রামের প্রেম — দৃশ্য ৫ (নমুনা অংশ)",
@@ -253,7 +253,7 @@ export const projects: Project[] = [
     title: "The Last Call",
     genre: "Mystery Short",
     deliverable: "Mystery Screenplay",
-    image: "/images/portfolio-last-call.jpg",
+    image: `./images/portfolio-last-call.jpg`,
     synopsis:
       "প্রতি রাত ১১:৪৭-এ একটি অচেনা নম্বর থেকে কল আসে সাংবাদিক নাঈমের ফোনে। ওপাশে শুধু নীরবতা… আর সপ্তম রাতে ভেসে আসে একটি ঠিকানা—যেখানে যাওয়ার কথা ছিল না তার।",
     excerptTitle: "The Last Call — দৃশ্য ২ (নমুনা অংশ)",
@@ -274,7 +274,7 @@ export const projects: Project[] = [
     title: "নতুন সকাল",
     genre: "Social Drama",
     deliverable: "Drama Script",
-    image: "/images/portfolio-notun-sokal.jpg",
+    image: `./images/portfolio-notun-sokal.jpg`,
     synopsis:
       "অভাবের সংসারে পড়াশোনা চালিয়ে যাওয়া কিশোরী মীমের স্বপ্ন—একদিন শিক্ষক হওয়া। এক সকালের একটি ছোট ঘটনা বদলে দেয় পুরো মহল্লার দৃষ্টিভঙ্গি।",
     excerptTitle: "নতুন সকাল — দৃশ্য ১ (নমুনা অংশ)",

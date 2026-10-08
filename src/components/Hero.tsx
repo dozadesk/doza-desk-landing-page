@@ -100,7 +100,7 @@ export default function Hero() {
             <div className="absolute -inset-3 rounded-[28px] bg-gradient-to-br from-[#00C878]/25 via-transparent to-[#00C878]/10 blur-xl" />
             <div className="relative overflow-hidden rounded-3xl border border-white/12 shadow-2xl shadow-black/60">
               <img
-                src="/images/hero-workspace.jpg"
+                src={`./images/hero-workspace.jpg`}
                 alt="Doza Desk — cinematic script writing workspace with laptop, camera and script notes"
                 className="aspect-[4/3.4] w-full object-cover sm:aspect-[16/11] lg:aspect-[4/3.6]"
                 loading="eager"
