@@ -43,7 +43,7 @@ export default function Navbar() {
           <img
             src={`${import.meta.env.BASE_URL}images/doza-desk-logo.png`}
             alt="Doza Desk — Your Local Digital Power Is Here"
-            className="h-12 w-auto max-w-[190px] rounded-md bg-white p-1 object-contain sm:max-w-[220px]"
+            className="h-12 w-auto max-w-[190px] object-contain sm:max-w-[220px]"
           />
         </a>
 
