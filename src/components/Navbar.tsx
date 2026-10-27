@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Menu, X, MessageCircle, Clapperboard } from "lucide-react";
+import { Menu, X, MessageCircle } from "lucide-react";
 import { siteConfig, waLink, defaultWaMessage } from "../config/site";
 
 const links = [
@@ -39,18 +39,12 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Brand */}
-        <a href="#home" className="flex items-center gap-3" aria-label="Doza Desk home">
-          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-[#00C878] to-[#00885a] shadow-[0_0_24px_rgba(0,200,120,0.35)]">
-            <Clapperboard className="h-6 w-6 text-[#061116]" strokeWidth={2.2} />
-          </span>
-          <span className="leading-tight">
-            <span className="block font-latin text-lg font-extrabold tracking-tight text-white">
-              Doza Desk
-            </span>
-            <span className="block text-[11px] font-medium tracking-wide text-[#9FB3AE]">
-              {siteConfig.brand.tagline}
-            </span>
-          </span>
+        <a href="#home" className="flex min-w-0 items-center" aria-label="Doza Desk home">
+          <img
+            src={`${import.meta.env.BASE_URL}images/doza-desk-logo.png`}
+            alt="Doza Desk — Your Local Digital Power Is Here"
+            className="h-12 w-auto max-w-[190px] rounded-md bg-white p-1 object-contain sm:max-w-[220px]"
+          />
         </a>
 
         {/* Desktop links */}
