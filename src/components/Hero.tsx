@@ -30,7 +30,7 @@ export default function Hero() {
           </Reveal>
 
           <Reveal delay={80}>
-            <h1 className="mt-4 text-[34px] font-bold leading-[1.25] text-white sm:text-5xl lg:text-[56px] lg:leading-[1.18]">
+            <h1 className="mt-4 text-center text-[34px] font-bold leading-[1.25] text-white sm:text-5xl lg:text-[56px] lg:leading-[1.18] lg:text-left">
               আপনার গল্প আছে,
               <br />
               কিন্তু <span className="bg-gradient-to-r from-[#00C878] to-[#7dffc4] bg-clip-text text-transparent">Script নেই?</span>
