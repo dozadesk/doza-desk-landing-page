@@ -19,7 +19,7 @@ export default function Hero() {
         <div className="absolute bottom-0 left-0 h-px w-full bg-gradient-to-r from-transparent via-[#00C878]/40 to-transparent" />
       </div>
 
-      <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-4 pb-14 pt-10 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14 lg:px-8 lg:pb-20 lg:pt-16">
+      <div className="relative mx-auto grid max-w-7xl items-center gap-8 px-4 pb-10 pt-6 sm:px-6 sm:pt-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14 lg:px-8 lg:pb-20 lg:pt-16">
         {/* Left */}
         <div>
           <Reveal>
@@ -30,7 +30,7 @@ export default function Hero() {
           </Reveal>
 
           <Reveal delay={80}>
-            <h1 className="mt-5 text-[34px] font-bold leading-[1.25] text-white sm:text-5xl lg:text-[56px] lg:leading-[1.18]">
+            <h1 className="mt-4 text-[34px] font-bold leading-[1.25] text-white sm:text-5xl lg:text-[56px] lg:leading-[1.18]">
               আপনার গল্প আছে,
               <br />
               কিন্তু <span className="bg-gradient-to-r from-[#00C878] to-[#7dffc4] bg-clip-text text-transparent">Script নেই?</span>
@@ -59,7 +59,7 @@ export default function Hero() {
           </Reveal>
 
           <Reveal delay={280}>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
               <a
                 href={waLink(defaultWaMessage)}
                 target="_blank"
